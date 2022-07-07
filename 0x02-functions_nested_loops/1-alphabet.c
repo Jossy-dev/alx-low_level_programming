@@ -1,21 +1,17 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * main - prints all alphabets in lower case, followed by a new line
+ * main - print alphabets
  *
- * Return: Always 0
+ * Return: 0
  */
-int main(void)
+void print_alphabets(void)
 {
-	char ch = 'a';
+	char c;
 
-	while (ch <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(ch);
-		_putchar('\n');
-		ch++;
+		_putchar(c);
 	}
-
-	return (0);
+	_putchar('\n');
 }
