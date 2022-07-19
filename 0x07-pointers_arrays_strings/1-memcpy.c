@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _memcpy - irontnoux2
  * @dest: pointer to char params
  * @src: pointer to char params
